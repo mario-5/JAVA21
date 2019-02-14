@@ -29,9 +29,9 @@ public static void main(String[] arguments){
         try {
             int whichDay = Integer.parseInt (arguments[0]);
             if (cal.isHoliday(whichDay)) {System.out.println("The day "+ 
-                    whichDay + "is a holiday");
+                    whichDay + " is a holiday");
                     } else {System.out.println("The day "+ 
-                    whichDay + "is not a holiday");}
+                    whichDay + " is not a holiday");}
                 
             } catch (NumberFormatException nfe){System.out.println("Error: "+
                     nfe.getMessage());
