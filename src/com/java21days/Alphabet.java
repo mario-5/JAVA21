@@ -11,7 +11,7 @@ public class Alphabet extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLookAndFeel();
         setSize(360, 120);
-        FlowLayout lm = new FlowLayout(FlowLayout.LEFT);
+        FlowLayout lm = new FlowLayout(FlowLayout.CENTER,30,10);
         setLayout(lm);
         JButton a = new JButton("Alibi");
         JButton b = new JButton("Burglar");
