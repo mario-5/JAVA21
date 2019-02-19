@@ -3,6 +3,7 @@ package com.java21days;
 import java.awt.*;
 import javax.swing.*;
 
+
 public class TabPanels extends JFrame {
 
     public TabPanels() {
@@ -28,7 +29,7 @@ public class TabPanels extends JFrame {
     private void setLookAndFeel() {
         try {
             UIManager.setLookAndFeel(
-                "com.sun.java.swing.plaf.nimbus.NimbusLookAndFeel"
+                "com.sun.java.swing.plaf.windows.WindowsLookAndFeel"
             );
             SwingUtilities.updateComponentTreeUI(this);
         } catch (Exception e) {
